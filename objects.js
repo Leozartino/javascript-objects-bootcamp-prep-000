@@ -20,5 +20,4 @@ function removeFromPlaylist(playlist, artistName){
   var playlistAtualizada = playlist
   delete playlistAtualizada.artistName
   return playlistAtualizada;
-  
 }

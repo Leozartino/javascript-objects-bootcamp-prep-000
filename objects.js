@@ -13,5 +13,6 @@
 var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', BandaDoMar: 'Dia clarear', Queen: "Don't stop me now"}
 
 function updatePlaylist(p, artist, song){
-  return Object.Assign
+  var playlistAtualizada = {}
+  return Object.assign(playlistAtualizada, p, )
 }

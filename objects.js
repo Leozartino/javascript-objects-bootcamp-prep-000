@@ -16,8 +16,6 @@ function updatePlaylist(playlist, artistName, songTitle){
   return Object.assign({}, playlist, {[artistName] : songTitle})
 }
 
-console.log(updatePlaylist(playlist, 'SeuJorge', 'Carolina'))
-
 function removeFromPlaylist(playlist, artistName){
   
 }

@@ -13,8 +13,7 @@
 var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', BandaDoMar: 'Dia clarear', Queen: 'Do not stop me now'}
 
 function updatePlaylist(p, artist, song){
-  var playlistAtualizada = {}
-  return Object.assign(playlistAtualizada, p, playlistAtualizada[artist] = song)
+  return Object.assign({}, p, {[artist] : song})
 }
 
 console.log(updatePlaylist(playlist, 'SeuJorge', 'Carolina'))

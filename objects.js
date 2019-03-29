@@ -12,9 +12,12 @@
 
 var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', BandaDoMar: 'Dia clarear', Queen: 'Do not stop me now'}
 
-function updatePlaylist(p, artist, song){
+function updatePlaylist(playlist, artistName, songTitle){
   return Object.assign({}, p, {[artist] : song})
 }
 
 console.log(updatePlaylist(playlist, 'SeuJorge', 'Carolina'))
 
+function removeFromPlaylist(playlist, artistName){
+  
+}

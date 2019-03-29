@@ -10,7 +10,7 @@
 4. Create a function `removeFromPlaylist` that accepts two arguments (the playlist object and the artist name). The body of the function should delete the key-value pair from the playlist and return the updated playlist.
 */
 
-var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', BandaDoMar: 'Dia clarear', Queen: "Don't stop me now"}
+var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', BandaDoMar: 'Dia clarear', Queen: 'Do not stop me now'}
 
 function updatePlaylist(p, artist, song){
   var playlistAtualizada = {}

@@ -1,1 +1,1 @@
-var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', 
+var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', BandaDoMar: 'Dia clarear', The

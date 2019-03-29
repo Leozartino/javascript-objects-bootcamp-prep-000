@@ -13,24 +13,9 @@
 var playlist = {VampireWeekend: 'A-punk', DaftPunk: 'Get lucky', BandaDoMar: 'Dia clarear', Queen: 'Do not stop me now'}
 
 function updatePlaylist(p, artist, song){
-  return Object.assign({}, p, {[artist] : song})
+  var playlistAtualizada = {}
+  return Object.assign(playlistAtualizada, p, playlistAtualizada[artist] = song)
 }
 
 console.log(updatePlaylist(playlist, 'SeuJorge', 'Carolina'))
 
-function updateObjectWithKeyAndValue(obj, key, value) {
- 
-  return Object.assign({}, obj, { [key]: value })
-}
-  // it's important that we merge everything into
-  // a new object such as the empty {}. 
-    // Otherwise, the object obj will be modified. 
-    // Test what happens if this line was written as:
-    // return Object.assign(obj, { [key]: value })
- 
-const recipe = { eggs: 3 }
- 
-console.log(updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup'))
-// returns `{ eggs: 3, chocolate: '1 cup' }`
- 
-recipe // { eggs: 3 }

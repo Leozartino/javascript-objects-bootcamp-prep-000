@@ -16,3 +16,5 @@ function updatePlaylist(p, artist, song){
   var playlistAtualizada = {}
   return Object.assign(playlistAtualizada, p, {[artist]: song})
 }
+
+console.log(updatePlaylist(playlist, 'Seu Jorge', 'Carolina'))

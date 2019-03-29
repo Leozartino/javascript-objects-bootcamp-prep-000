@@ -1,0 +1,1 @@
+var playlist = {VampireWeeked: 'A-punk', DaftPunk: 'Get lucky', 

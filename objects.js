@@ -16,7 +16,7 @@ function updatePlaylist(p, artist, song){
   return Object.assign({}, p, {[artist] : song})
 }
 
-console.log(updatePlaylist(playlist, 'Seu Jorge', 'Carolina'))
+console.log(updatePlaylist(playlist, 'SeuJorge', 'Carolina'))
 
 function updateObjectWithKeyAndValue(obj, key, value) {
  
